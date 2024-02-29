@@ -14,6 +14,7 @@ conda env create -f Segment_Object.yml
 ## Download Model weights
 
 ```
+cd clipseg
 wget https://owncloud.gwdg.de/index.php/s/ioHbRzFx6th32hn/download -O weights.zip
 unzip -d weights -j weights.zip
 cd weights
