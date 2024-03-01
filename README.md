@@ -11,6 +11,8 @@ conda env create -f Displace_Object.yml
 conda env create -f Segment_Object.yml
 conda activate Segment_Object
 pip install git+https://github.com/openai/CLIP.git
+cd segment-anything
+pip install -e .
 ```
 ## Download Model weights
 
