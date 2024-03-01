@@ -2,7 +2,7 @@
 
 We have 3 main folders 
 1) `clipseg` -> has the python file for segmention using text prompt
-2) `DragonDiffusion` -> has the file for displacing object in a scene
+2) `DragonDiffusion` -> has the file for displacing objevt in a scene
 3) `segment-anything`
 
 ## Create environments
@@ -14,7 +14,6 @@ conda env create -f Segment_Object.yml
 ## Download Model weights
 
 ```
-cd clipseg
 wget https://owncloud.gwdg.de/index.php/s/ioHbRzFx6th32hn/download -O weights.zip
 unzip -d weights -j weights.zip
 cd weights
@@ -48,7 +47,7 @@ python run_object_segment.py \
 --image <path to image to segment> \
 --class_name <name of object to segment> \
 --output <name of output file> \
---mask_path <path to store mask> \
+--mask_path <path to store output mask> \
 --sam_ckpt <checkpoint of SAM> \
 --clipdense_ckpt <checkpoint to CLIPDense> 
 ```
