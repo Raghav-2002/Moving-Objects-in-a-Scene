@@ -9,11 +9,13 @@ We have 3 main folders
 ```
 conda env create -f Displace_Object.yml
 conda env create -f Segment_Object.yml
-
+conda activate Segment_Object
+pip install git+https://github.com/openai/CLIP.git
 ```
 ## Download Model weights
 
 ```
+cd clipseg
 wget https://owncloud.gwdg.de/index.php/s/ioHbRzFx6th32hn/download -O weights.zip
 unzip -d weights -j weights.zip
 cd weights
