@@ -2,7 +2,7 @@
 
 We have 3 main folders 
 1) `clipseg` -> has the python file for segmention using text prompt
-2) `DragonDiffusion` -> has the file for displacing objevt in a scene
+2) `DragonDiffusion` -> has the file for displacing object in a scene
 3) `segment-anything`
 
 ## Create environments
