@@ -74,7 +74,7 @@ python run_object_segment.py \
 
 IMPORTANT NOTE: \
   To perform Task 2, please perform Task 1 first so as to obtain the image mask (`Mask_Stool.png` from above example) as it is needed in Task 2. \
-  The object `--class_name` should correspond to the segmented object in `--mask_path` \
+  The object `--class_name` should correspond to the segmented object in `--mask_path` 
 
   For example in the following commands use `Mask_Stool.png` got from Task 1 for the `--mask_path` arguement  
   
