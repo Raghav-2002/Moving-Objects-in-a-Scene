@@ -40,7 +40,7 @@ wget https://huggingface.co/Adapter/DragonDiffusion/resolve/main/model/shape_pre
 ```
 ## Task 1
 
-To segement objects in an image i.e conver the queried object woth a red mask run the following.
+To segement objects in an image i.e cover the queried object with a red mask run the following. \
 For Task 1, from main directory:
 ```
 conda activate Segment_Object
