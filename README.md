@@ -3,11 +3,10 @@
 1) We have 3 main folders \
  a) `clipseg` -> has the Python file for segmention using text prompt \
  b) `DragonDiffusion` -> Has the file for displacing object in a scene \
- c) `segment-anything` -> Codebase of SAM \
+ c) `segment-anything` -> Codebase of SAM 
 2) `Visual Results` -> Results of Experiments
 3) `Project Report.pdf` -> Has the project report
-
-The codebase is tested on `CUDA:12.0`
+4) The codebase is tested on `CUDA:12.0`
 
 ## Create environments
 ```
