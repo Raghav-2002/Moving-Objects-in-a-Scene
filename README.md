@@ -5,6 +5,8 @@ We have 3 main folders
 2) `DragonDiffusion` -> has the file for displacing object in a scene
 3) `segment-anything`
 
+The codebase is tested on `CUDA:12.0`
+
 ## Create environments
 ```
 conda env create -f Displace_Object.yml
