@@ -3,7 +3,8 @@
 We have 3 main folders 
 1) `clipseg` -> has the python file for segmention using text prompt
 2) `DragonDiffusion` -> has the file for displacing object in a scene
-3) `segment-anything`
+3) `segment-anything` -> codebase of SAM
+4) `Visual Results` -> Resultd of Experiments
 
 The codebase is tested on `CUDA:12.0`
 
