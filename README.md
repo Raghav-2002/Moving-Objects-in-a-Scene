@@ -1,11 +1,11 @@
 # Moving Objects in a Scene
 
-We have 3 main folders 
-1) `clipseg` -> has the Python file for segmention using text prompt
-2) `DragonDiffusion` -> Has the file for displacing object in a scene
-3) `segment-anything` -> Codebase of SAM
-4) `Visual Results` -> Results of Experiments
-5) Project Report.pdf -> Has the project report
+1) We have 3 main folders 
+ a) `clipseg` -> has the Python file for segmention using text prompt
+ b) `DragonDiffusion` -> Has the file for displacing object in a scene
+ c) `segment-anything` -> Codebase of SAM
+2) `Visual Results` -> Results of Experiments
+3) `Project Report.pdf` -> Has the project report
 
 The codebase is tested on `CUDA:12.0`
 
